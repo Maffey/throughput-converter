@@ -54,6 +54,8 @@ fn main() {
     let elapsed_time = now.elapsed();
 
     println!("Performance: {:?}", elapsed_time);
+    println!("Press ENTER to close the program...");
+    io::stdin().read_line(&mut String::new()).unwrap();
 
 }
 

@@ -1,7 +1,9 @@
 [package]
 name = "throughput"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
+authors = ["Mateusz Kuniczuk"]
+description = "Simple program to convert throughput, written in Rust."
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
